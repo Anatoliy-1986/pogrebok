@@ -175,13 +175,13 @@ left:405px;
 }
 .certa {
   display:flex;
-  height:94px;
+  height:1px;
   width:160px;
   align-items: center;
  justify-content: center;
   text-align: center;
   align-content: center;
-  border:1px solid #FFFFFF;
+  border-bottom:1px solid #FFFFFF;
   margin-left:475px;
 }
 

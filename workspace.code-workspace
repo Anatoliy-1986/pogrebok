@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "..\\site"
+		},
+		{
+			"path": "..\\ring"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ring",
+		"liveServer.settings.port": 5501
+	}
+}
