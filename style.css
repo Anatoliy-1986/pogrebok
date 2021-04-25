@@ -628,7 +628,7 @@ list-style-type: none;
 .corte {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
   width: 100%;
   height:60px;
 border-right: 1px solid white;
@@ -654,7 +654,7 @@ border-right: 1px solid white;
 .inc {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-end;
   width: 100%;
   height:60px;
 
