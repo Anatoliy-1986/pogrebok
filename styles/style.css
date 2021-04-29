@@ -189,7 +189,12 @@ color: rgba(255, 255, 255, 1);
   min-height:758px;
   justify-content: space-between;
   align-content: space-between;
-  margin-left: 5%;
+  padding-left: 5%;
+  box-sizing: border-box;
+}
+
+.container-right img {
+  width: 100%;
 }
 
 
@@ -303,6 +308,8 @@ color: rgba(255, 255, 255, 1);
 /*feedback*/
 
 .feedback {
+  position: relative;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -310,20 +317,20 @@ color: rgba(255, 255, 255, 1);
   background: #282828;
 }
 
-/*.logotype-1 {
+.logotype-1 {
   position: absolute;
   width: 260px;
   height: 200px;
-  top:2858px;
-  left:1308px;
+  top:0;
+  right:8%;
 }
 
 .logotype-2 {
   position: absolute;
   width: 260px;
   height: 260px;
-  top:2854px;
-  left:375px;
+  top:0;
+  left:0;
 }
 
 .promo {
@@ -349,7 +356,7 @@ color: rgba(255, 255, 255, 1);
   font-size: 36px;
   line-height: 54px;
   color:white;
-}*/
+}
 
 .container-second {
   display: flex;
